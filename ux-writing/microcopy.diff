@@ -1,0 +1,11 @@
+--- before/microcopy.txt
++++ after/microcopy.txt
+@@ A. Error @@
+-[бодит алдааны текстийг энд буулгана]
++We couldn't share this page. Check your connection and access, then try again.
+@@ B. Empty state @@
+-[бодит хоосон төлөвийн текстийг энд буулгана]
++No tasks yet. Add a task to start tracking your project.
+@@ C. Onboarding hint @@
+-[бодит hint-ийн текстийг энд буулгана]
++Turn your task list into a Board to track progress by status.
