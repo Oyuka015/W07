@@ -1,0 +1,28 @@
+site_name: AppFlowy — Хэрэглэгчийн баримтжуулалт (Week 07)
+site_description: AppFlowy дээр төслийн Board үүсгэх, хуудас хуваалцах заавар, API лавлах
+theme:
+  name: material
+  language: en
+plugins:
+  - search
+nav:
+  - Нүүр: index.md
+  - Сургалт (Tutorial):
+      - Анхны төслийн Board: tutorials/first-project-board.md
+  - Зааварчилгаа (How-to):
+      - Хуудас хуваалцах: how-to/share-a-page.md
+      - Board харагдац үүсгэх: how-to/create-a-board-view.md
+      - Хандах эрхийн асуудал засах: how-to/troubleshoot-page-sharing.md
+  - Лавлах (Reference):
+      - AppFlowy Cloud REST API: reference/api-reference.md
+  - UX бичвэр:
+      - Microcopy өмнө/дараа: ux-writing/microcopy-before-after.md
+  - Тайлан:
+      - Definition of Done: report/definition-of-done.md
+      - Уран зохиол ба тусгал: report/literature-and-reflection.md
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
